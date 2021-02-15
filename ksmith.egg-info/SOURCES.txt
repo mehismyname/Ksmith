@@ -1,0 +1,8 @@
+README.md
+setup.py
+ksmith.egg-info/PKG-INFO
+ksmith.egg-info/SOURCES.txt
+ksmith.egg-info/dependency_links.txt
+ksmith.egg-info/top_level.txt
+module/ksmith/__init__.py
+module/ksmith/_ksmith.py

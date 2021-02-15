@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ksmith
+Version: 0.0.1
+Summary: Kent Smith's personnal python library.
+Home-page: https://github.com/mehismyname/Ksmith
+Author: Kent Smith
+License: MIT
+Description: My personal library
+Keywords: ksmith
+Platform: UNKNOWN
+Requires-Python: >= 3.5
