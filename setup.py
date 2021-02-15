@@ -8,6 +8,8 @@ DESCRIPTION = "Kent Smith's personnal python library."
 
 LICENSE = 'MIT'
 
+URL='https://github.com/mehismyname/Ksmith.git'
+
 AUTHOR = "Kent Smith"
 
 KEYWORDS = ['ksmith']
@@ -23,6 +25,7 @@ setup(name=DISTNAME,
 	description=DESCRIPTION,
 	lincense=LICENSE,
 	author=AUTHOR,
+	url=URL,
 	keywords=KEYWORDS,
 	install_requires=REQUIREMENTS,
 	python_requires=PYTHON,)
