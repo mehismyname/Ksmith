@@ -2,15 +2,19 @@ from setuptools import setup
 
 DISTNAME = 'ksmith'
 
-VERSION= '0.0.01'
+VERSION= '0.0.1'
 
 DESCRIPTION = "Kent Smith's personnal python library."
 
+LONG_DESCRIPTION = "My personal library"
+
 LICENSE = 'MIT'
 
-URL='https://github.com/mehismyname/Ksmith.git'
+URL='https://github.com/mehismyname/Ksmith'
 
 AUTHOR = "Kent Smith"
+
+EMAIL= "no-reply@gmail.com"
 
 KEYWORDS = ['ksmith']
 
@@ -23,7 +27,8 @@ setup(name=DISTNAME,
 	package_dir={'ksmith':'module/ksmith'},
 	version=VERSION,
 	description=DESCRIPTION,
-	lincense=LICENSE,
+	long_description=LONG_DESCRIPTION,
+	license=LICENSE,
 	author=AUTHOR,
 	url=URL,
 	keywords=KEYWORDS,

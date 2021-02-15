@@ -14,7 +14,7 @@ def delay_print(s, end='\n'):
 	print('end')
 
 def get_int(prompt="Enter a number", start='0', finish='0'):
-	#
+	
 	while True:
 		try:
 			x=int(input(f"{prompt}:"))
