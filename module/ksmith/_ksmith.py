@@ -2,7 +2,10 @@ import sys as _sys
 import time as _time
 import os as _os
 
-__all__= ['hello', 'delay_print','clear']
+__all__= ['hello', 'delay_print','clear','get_num','delay']
+
+def delay(x):
+	_time.sleep(x)
 
 def hello(name):
 	string = f"Hello {name}, my name is Kent Smith"

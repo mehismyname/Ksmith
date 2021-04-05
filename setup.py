@@ -2,7 +2,7 @@ from setuptools import setup
 
 DISTNAME = 'ksmith'
 
-VERSION= '0.0.1'
+VERSION= '0.0.3'
 
 DESCRIPTION = "Kent Smith's personnal python library."
 
