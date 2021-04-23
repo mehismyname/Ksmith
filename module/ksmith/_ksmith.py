@@ -35,7 +35,7 @@ def delay_print(string, level=4, end=''):
     print(end)
     return 0
 
-def get_num(prompt="Enter a number:", start=False, finish=False, integer=False, round_up=False):
+def get_num(prompt="Enter a number:", start=False, finish=False, integer=False, round_up=False, round_num=0.5):
     """
     Takes a number from a person and checks that the number is valid.
 
@@ -56,7 +56,7 @@ def get_num(prompt="Enter a number:", start=False, finish=False, integer=False, 
             if integer:
                 if round_up:
                     num=numb - int(numb)
-                    if num >= 0.5:
+                    if num >= round_num:
                         numb= int(numb)+1
                 else:
                     numb = int(numb)
